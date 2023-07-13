@@ -25,3 +25,7 @@ values('Chargers',4500,'Hyderbad','India');
 
 Select * from Customer;
 Select * from Orders;
+
+--UC3
+Delete From Customer where Customer_Id=3; 
+Delete From Orders where Order_Id=3; 
