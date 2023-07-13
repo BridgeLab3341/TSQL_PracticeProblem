@@ -29,3 +29,7 @@ Select * from Orders;
 --UC3
 Delete From Customer where Customer_Id=3; 
 Delete From Orders where Order_Id=3; 
+
+--UC4
+Update Customer set CustomerName='AjayKumar' where Customer_Id=4;
+Update Orders set OrderName='Engine' where Order_Id=4;
